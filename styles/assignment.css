@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
     margin: 0px;
     padding: 0px;
 }
+
 /* Header section */
-.primary-color{
-    color: #FF66CC; 
+.primary-color {
+    color: #FF66CC;
 }
-.nav-bar{
+
+.nav-bar {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -18,19 +20,23 @@
     align-items: center;
     padding: 0 120px;
 }
-.logo{
+
+.logo {
     display: flex;
     gap: 10px;
     /* height: 130px; */
     align-items: center;
 }
-.logo-name{
+
+.logo-name {
     font-size: 3rem;
 }
-.btn-img{
+
+.btn-img {
     width: 34px;
 }
-.dev-button{
+
+.dev-button {
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -42,22 +48,91 @@
     font-weight: 600;
     gap: 10px;
 }
-.dev-button:hover{
+
+.dev-button:hover {
     cursor: pointer;
     background-color: gray;
     color: #FFF;
 }
-.menu ul{
+
+.menu ul {
     display: flex;
     list-style: none;
     align-items: center;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     margin-right: 25px;
 }
-.about-us, .developers{
+
+.about-us,
+.developers {
     color: #3C354F;
     font-size: 1.125rem;
     font-weight: 600;
 }
+
+/* Banner section start */
+.banner-container {
+    height: 700px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+}
+
+.play-like {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FF66CC;
+}
+
+.description {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: lowercase;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.btn-1{
+    padding: 21px 40px;
+    border-radius: 30px;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.btn-2{
+    padding: 21px 40px;
+    border-radius: 30px;
+    border: none;
+    background: #4EC5F7;
+}
+.banner-info{
+    margin-left: 100px;
+}
+.banner-img{
+    margin-top: 22px;
+    margin-right: 100px;
+}
+/* Banner section end */
