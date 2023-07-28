@@ -30,6 +30,7 @@
 
 .logo-name {
     font-size: 3rem;
+    /* color: #FFF; */
 }
 
 .btn-img {
@@ -180,3 +181,95 @@
 }
 
 /* Online Game section end */
+.play-instantly-description {
+    margin-top: 10px;
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.play-instantly-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.play-instantly-img .img1 {
+    height: 90%;
+    margin-left: 90px;
+}
+
+.secondary-img .img2 {
+    position: relative;
+    margin-top: -300px;
+}
+
+.category-container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.category-container:hover{
+    border: 2px solid palevioletred;
+    border-radius: 40%;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 80px;
+}
+
+.catagory-name {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.footer{
+    height: 400px;
+    background-color:#0B0223;
+    padding: 70px;
+}
+.footer-logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 70px; */
+    align-items: center;
+    color: #FFF;
+}
+.services{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.social-icon{
+    width: 50px;
+    margin-top: 70px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+.policy{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.copyright{
+    color: #FFF;
+    margin-top: 80px;
+    text-align: center;
+}
