@@ -215,7 +215,7 @@
 
 .category-container:hover{
     border: 2px solid palevioletred;
-    border-radius: 40%;
+    border-radius: 50%;
 }
 
 .category {
